@@ -60,7 +60,7 @@ pip install 'crewai[tools]'
 ```python
 import os
 from crewai import Agent, Task, Crew, Process
-from crewai_tools import SerperDevTool
+crewai_tools.tools import SerperDevTool
 
 os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
 os.environ["SERPER_API_KEY"] = "Your Key" # serper.dev API key
